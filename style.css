@@ -1,0 +1,80 @@
+.section{
+    background-color: brown;
+    background-image: url(./images/image\ 11.jpg);
+}
+.section h2{
+ font-family: cursive;
+ color:aqua;
+ font-size: 48px;
+ 
+
+}
+.section p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: burlywood;
+}
+.menu{
+    background-color: limegreen;
+}
+.menu h2{
+  font-family: cursive;
+  font-size: 28px;
+  color: coral;
+
+}
+.menu p{
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color:indianred
+
+}
+.home-slider img{
+min-height: 50vh!important;
+padding: 12px limegreen!important;
+background-size: cover;
+
+}
+.program img{
+    max-height: 300px!important;
+
+}
+.navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 20px 15px;
+   
+}
+.navbar ul li a{
+font-family:cursive;
+color: orange;
+font-weight: 700;
+text-decoration:underline;
+text-transform:uppercase;
+font-size: 24px;
+}
+.navbar ul li:hover{
+background-color: orange;
+}
+.icons ul li:hover{
+    background-color: orange;
+
+}
+/* Credits section */
+.credits{
+    background-color: orange;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+   
+   }
+   .credits:hover{
+   transform: unset;
+   transition: ease-in-out 10ms;
+   }
